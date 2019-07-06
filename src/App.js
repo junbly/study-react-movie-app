@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Movie from './Movie';
-
+ 
 const movies = [
   {
     title: "Matrix",
@@ -22,18 +22,23 @@ const movies = [
 ];
 
 class App extends Component {
-  componentWillMount() {
-    console.log('will muount');
-  }
   
+  state = {
+    greeting: 'Hello'
+  }
+
   componentDidMount() {
-    console.log('did mount');
+    setTimeout(() => {
+      this.setState({
+        greeting: 'Hello again!'
+      })
+    }, 2000);
   }
-  
+
   render() {
-    console.log('did render');
     return (
       <div className="App">
+        {this.state.greeting}
         {movies.map((movie, index) => {
           return <Movie title={movie.title} poster={movie.poster} key={index}/>
         })}
