@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://junbly.github.io/study-react-movie-app",
+  "homepage": "https://junbly.github.io/study-react-movie-app",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
