@@ -6,7 +6,10 @@ class App extends Component {
   state = {}
 
   componentDidMount() {
-    console.log(fetch(`https://yts.lt/api/v2/list_movies.json?sort_by=rating`));
+    fetch(`https://yts.lt/api/v2/list_movies.json?sort_by=rating`)
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(e => console.log(e));
   }
 
   _rednerMovies = () => {
