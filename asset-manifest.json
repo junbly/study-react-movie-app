@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/study-react-movie-app/static/css/main.e86770fc.chunk.css",
+    "main.js": "/study-react-movie-app/static/js/main.4e9ef62d.chunk.js",
+    "main.js.map": "/study-react-movie-app/static/js/main.4e9ef62d.chunk.js.map",
+    "runtime~main.js": "/study-react-movie-app/static/js/runtime~main.690ba5b9.js",
+    "runtime~main.js.map": "/study-react-movie-app/static/js/runtime~main.690ba5b9.js.map",
+    "static/js/2.ea5cb7b5.chunk.js": "/study-react-movie-app/static/js/2.ea5cb7b5.chunk.js",
+    "static/js/2.ea5cb7b5.chunk.js.map": "/study-react-movie-app/static/js/2.ea5cb7b5.chunk.js.map",
+    "index.html": "/study-react-movie-app/index.html",
+    "precache-manifest.6e87b469b1d8136327153f8cda364368.js": "/study-react-movie-app/precache-manifest.6e87b469b1d8136327153f8cda364368.js",
+    "service-worker.js": "/study-react-movie-app/service-worker.js",
+    "static/css/main.e86770fc.chunk.css.map": "/study-react-movie-app/static/css/main.e86770fc.chunk.css.map"
+  }
+}
